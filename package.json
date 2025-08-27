@@ -1,16 +1,17 @@
 {
   "name": "openpagefriday",
   "version": "1.0.0",
-  "description": "Chatbot using OpenRouter API",
+  "description": "OpenPageFriday backend - OpenRouter proxy with key rotation",
   "type": "module",
-  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "cors": "^2.8.5",
-    "body-parser": "^1.20.2",
     "dotenv": "^16.3.1"
   }
 }
