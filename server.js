@@ -40,7 +40,7 @@ app.post('/api/chat', async (req, res) => {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'deepseek/deepseek-r1-0528:free',
+        model: 'meta-llama/llama-3.3-8b-instruct:free',
         messages
       })
     });
